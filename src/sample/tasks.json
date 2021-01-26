@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "title": "How do you actually plan your day thoroughly?",
+        "description": "A lot of places will say to plan your day out as thoroughly as possible to save energy from having to make decisions about what to do. I find this impossible to perfect because what I do might take longer than expected.",
+        "done": false
+    },
+    {
+        "id": 1,
+        "title": "Working out is a meditation",
+        "description": "I love working out not only for my body but for my mind. It's like meditating and a way for me to get out my anger or sadness out. Yet it's really healthy for you as well. Working out is my meditation and I definitely recommend it for everyone.",
+        "done": false
+    },
+    {
+        "id": 2,
+        "title": "Anybody do brain warmups before work?",
+        "description": "I’m not a person who can get up in the morning and immediately jump into studying or work. I just feel slow and unfocused and don’t really have ideas or thoughts. I will admit I struggle with boredom, laziness, and lack of focus anyway, so it’s hard for me to get started at all.",
+        "done": false
+    }
+]

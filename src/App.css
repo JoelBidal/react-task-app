@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+    
+    /* Navegation */
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.head .link{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+
+.head .link:first-child{
+    border-right: 1px solid black;
+}
+
+.head .link:hover{
+    text-decoration: overline;
+}
+
+/* Title box and welcome */
+.titleBox, .yourTaskBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.titleBox h2{
+    color: #000;
+    font-weight: 500;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.titleBox h4{
+    color: rgba(19, 19, 19, 0.637);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.yourTaskBox h2{
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/* Form for create Task */
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input,
+form textarea{
+    width: 60%;
+    margin: 10px 0;
+    padding: 1rem;
+    border: 1px solid#dadada;
+    border-radius: 4px;
+}
+
+form textarea{
+    resize: none;
+}
+form input[type=submit]{
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+form input[type=submit]:hover{
+    background-color: #dadada;
+}
+
+/* Task box */
+.taskBox{
+    margin: 25px auto;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border: .5px solid #eee;
+    border-radius: 4px;
+}
+
+.description{
+    font-weight: 300;
+    text-align: left;
+    margin: 10px 2rem;
+}
+
+/* Task buttons */
+.btnBox{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.btnBox input,
+.btnBox button{
+    margin: 0 10px;
+}
+
+.btnBox .check{
+    height: 30px;
+    width: 30px;
+}
+
+
+.btnBox .btnDelete{
+    font-size: 14px;
+    background-color: rgb(26, 26, 26);
+    color: #eee;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+
+/* Posts News */
+
+.newsBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsBox h1{
+    margin-top: 40px;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.newsBox .new{
+    width: 50%;
+    height: auto;
+    border: .5px solid #eee;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 25px auto;
+}
+
+.newsBox .new h3{
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.newsBox .new p{
+    color: #303030e0;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.newsBox .new div{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.newsBox .new div img{
+    width: 50vw;
+}
+
+/* Footer */
+.footerBox{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    border-top: .5px solid #eee;
+}
+
+.footerBox p{
+    font-weight: 300;
+}
+
+.footerBox a{
+    text-decoration: none;
+    font-weight: 500;
+    cursor: crosshair;
+}
+.footerBox a:hover{
+    text-decoration: line-through;
+}
+
