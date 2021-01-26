@@ -67,9 +67,7 @@ class App extends Component{
               deleteTask={this.deleteTask}
               checkDone={this.checkDone}
             />
-            
           </div>
-          
           }}>
         </Route>
         <Route path="/posts" component={Posts}/>

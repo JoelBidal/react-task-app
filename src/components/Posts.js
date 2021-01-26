@@ -24,7 +24,7 @@ export default class Posts extends Component {
                             <p>{post.description}</p>
                             <span>Date: {post.publishedAt.split('T')[0]}</span>
                             <div>
-                                <a href={post.url} target="_blank"><img src={post.urlToImage}></img></a>
+                                <a href={post.url}><img src={post.urlToImage} alt="News head"></img></a>
                             </div>
                         </div>
                     })
