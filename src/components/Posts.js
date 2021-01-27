@@ -9,7 +9,7 @@ export default class Posts extends Component {
     }
 
     componentDidMount() {
-        fetch('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfd8bbb25e5415dab52d55d57da4112')
+        fetch('http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2bfd8bbb25e5415dab52d55d57da4112')
         .then(response => response.json())
         .then(postJson => this.setState({posts: postJson.articles}))
     }
